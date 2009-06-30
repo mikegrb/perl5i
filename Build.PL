@@ -27,6 +27,7 @@ my $builder = MyBuild->new(
 
         'autobox::dump'       => '20090426',
         'autobox::List::Util' => '20090429',
+        'File::chdir'         => '0.08',
     },
     build_requires => {
         'Test::More' => '0.88',
